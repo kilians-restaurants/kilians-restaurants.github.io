@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kilians Restaurants</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ef9505;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #e5da93;
+            color: rgb(154, 107, 8);
+            padding: 1rem;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .content {
+            padding: 2rem;
+        }
+        .profile-section {
+            display: flex;
+            align-items: center;
+            padding: 2rem;
+            background-color: white;
+            border-radius: 10px;
+            margin-bottom: 2rem;
+        }
+        .profile-section img {
+            border-radius: 50%;
+            margin-right: 2rem;
+        }
+        .profile-section h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
+        .posts {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1rem;
+        }
+        .post a {
+            display: block;
+            padding: 1rem;
+            background-color: white;
+            color: #000;
+            text-align: center;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .post a:hover {
+            background-color: #f0f0f0;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Kilians Restaurants</h1>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Unser Team</a></li>
+            <li><a href="#">Rezensionen</a></li>
+            <li><a href="#">Kontakt</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div class="content">
+    <section class="profile-section">
+        <img src="Bilder/profilbild.jpg" alt="Kilians Profilbild" width="150">
+        <div>
+            <h1>Kilians Restaurants</h1>
+            <p>Deutschlands Elite-Restaurantkritiker-Team mit raffiniertem Geschmackssinn. Jeder Biss wird zur Symphonie, jede Kritik zur Kunst.</p>
+            <p><strong>Follower:</strong> 291 | <strong>Beiträge:</strong> 22</p>
+        </div>
+    </section>
+
+    <section>
+        <h2>Neueste Beiträge</h2>
+        <div class="posts">
+            <div class="post">
+                <a href="Beiträge/beitrag22.html">Beitrag 22: Main Spessart Terrasse Hotel & Restaurant</a>
+            </div>
+            <div class="post">
+                <a href="Beiträge/beitrag21.html">Beitrag 21: Hotel Restaurant Nöth</a>
+            </div>
+            <div class="post">
+                <a href="Beiträge/beitrag20.html">Beitrag 20: Brauhaus Johann Schäffer</a>
+            </div>
+        </div>
+    </section>
+</div>
+
+<footer>
+    <p>© 2024 Kilians Restaurants | Kontakt: kilians.restaurant@gmail.com</p>
+</footer>
+
+</body>
+</html>
